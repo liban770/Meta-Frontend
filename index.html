@@ -3,9 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="The Gents Barber — premium cuts, shaves and grooming.">
+    <title>The Gents Barber</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <div class="nav-wrap">
+            <a class="brand" href="#" aria-label="The Gents Barber home">
+                <span class="brand-mark">G</span>
+                <span class="brand-name">THE GENTS</span>
+            </a>
+            <nav class="nav" aria-label="Main navigation">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#barbers">Barbers</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a class="nav-book" href="#booking">Book a chair <span>→</span></a>
+            <button class="menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow"><span></span> EST. 2012 · OLD SCHOOL VALUES</p>
+                <h1>Look sharp.<br><em>Feel legendary.</em></h1>
+                <p class="hero-copy">Classic cuts, clean fades and straight razor shaves.<br>Crafted for the gentleman you are becoming.</p>
+                <div class="hero-actions">
+                    <a class="button button-gold" href="#booking">Book an appointment</a>
+                    <a class="text-link" href="#services">Explore services <span>↓</span></a>
+                </div>
+            </div>
+            <div class="hero-image" role="img" aria-label="Barber carefully trimming a client's beard"></div>
+            <div class="opening-card">
+                <span class="opening-dot"></span>
+                <div>
+                    <strong>Open today</strong>
+                    <small>8:00 AM — 8:00 PM</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="trust-bar" aria-label="Shop highlights">
+            <div><strong>14+</strong><span>Years of craft</span></div>
+            <div><strong>8k</strong><span>Happy gentlemen</span></div>
+            <div><strong>4.9</strong><span>Average rating</span></div>
+            <div class="trust-quote">“A cut above the rest.” <b>— Men's Journal</b></div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow dark"><span></span> OUR SERVICES</p>
+                    <h2>Mastered to perfection.</h2>
+                </div>
+                <p>Every service is unhurried, precise and built around you.</p>
+            </div>
+            <div class="service-grid">
+                <article class="service-card featured">
+                    <div class="service-number">01</div>
+                    <div class="service-icon" aria-hidden="true">✂</div>
+                    <h3>The Signature Cut</h3>
+                    <p>Consultation, tailored cut, wash and finish.</p>
+                    <div class="service-meta"><strong>$45</strong><span>45 min</span></div>
+                </article>
+                <article class="service-card">
+                    <div class="service-number">02</div>
+                    <div class="service-icon" aria-hidden="true">◆</div>
+                    <h3>Skin Fade</h3>
+                    <p>Seamless blend with sharp line-up and style.</p>
+                    <div class="service-meta"><strong>$38</strong><span>40 min</span></div>
+                </article>
+                <article class="service-card">
+                    <div class="service-number">03</div>
+                    <div class="service-icon" aria-hidden="true">◒</div>
+                    <h3>Classic Shave</h3>
+                    <p>Hot towel, straight razor and calming balm.</p>
+                    <div class="service-meta"><strong>$35</strong><span>30 min</span></div>
+                </article>
+                <article class="service-card">
+                    <div class="service-number">04</div>
+                    <div class="service-icon" aria-hidden="true">♜</div>
+                    <h3>Beard Sculpt</h3>
+                    <p>Shape, trim and detail for your best profile.</p>
+                    <div class="service-meta"><strong>$28</strong><span>25 min</span></div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-image"></div>
+            <div class="about-content">
+                <p class="eyebrow"><span></span> MORE THAN A BARBER SHOP</p>
+                <h2>Tradition in every detail.</h2>
+                <p>We believe a great haircut is only the beginning. It is an hour away from the noise—a ritual of craft, conversation and confidence.</p>
+                <p>Our barbers combine time-honored technique with modern style, giving every guest a look that feels completely individual.</p>
+                <div class="signature">The Gents <span>—</span></div>
+            </div>
+        </section>
+
+        <section class="booking" id="booking">
+            <div>
+                <p class="eyebrow dark"><span></span> WALK INS WELCOME</p>
+                <h2>Your chair is waiting.</h2>
+            </div>
+            <a class="button button-dark" href="tel:+15551234567">Call to book <span>→</span></a>
+        </section>
+
+        <section class="barbers section" id="barbers">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow dark"><span></span> MEET THE TEAM</p>
+                    <h2>Masters of their craft.</h2>
+                </div>
+            </div>
+            <div class="barber-grid">
+                <article>
+                    <div class="barber-photo barber-one"></div>
+                    <h3>Marco Reed</h3><p>Master Barber · 12 years</p>
+                </article>
+                <article>
+                    <div class="barber-photo barber-two"></div>
+                    <h3>Daniel Knox</h3><p>Fade Specialist · 8 years</p>
+                </article>
+                <article>
+                    <div class="barber-photo barber-three"></div>
+                    <h3>Andre Lewis</h3><p>Shave Expert · 10 years</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-brand">
+            <a class="brand" href="#"><span class="brand-mark">G</span><span class="brand-name">THE GENTS</span></a>
+            <p>Old-school service. Modern style.</p>
+        </div>
+        <div><h4>Visit us</h4><p>148 King Street<br>New York, NY 10012</p></div>
+        <div><h4>Opening hours</h4><p>Mon–Fri: 8am–8pm<br>Sat–Sun: 9am–6pm</p></div>
+        <div><h4>Follow</h4><p><a href="#">Instagram</a><br><a href="#">Facebook</a></p></div>
+        <div class="footer-bottom">© 2026 The Gents Barber. All rights reserved.</div>
+    </footer>
+
+    <script>
+        const menuButton = document.querySelector('.menu-button');
+        const nav = document.querySelector('.nav');
+        menuButton.addEventListener('click', () => {
+            const isOpen = nav.classList.toggle('open');
+            menuButton.setAttribute('aria-expanded', isOpen);
+        });
+    </script>
 </body>
 </html>
